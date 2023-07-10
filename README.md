@@ -7,7 +7,7 @@ Creating an Enterprise Resource Planner (ERP) software that may helps me managin
 
 **About my prod env:** code has been build and tested on Django 4.0.2 and Python 3.8.8 running on Win11 machine.
 
-1. Clone the project: `git clone https://github.com/carloocchiena/django_erp.git`.
+1. Clone the project
 2. Create a virtual environment (conda `conda create -n my_env pip python=3.8`) (python `python3 -m venv my_env`).
 3. Activate your virtual environment: (conda`conda activate my_env`) (Linux/MacOS `source my_env/bin/activate`) (Windows `source my_env/Scripts/activate`).
 4. Install requirements.txt: `pip install -r requirements.txt`.
@@ -39,10 +39,6 @@ At the moment there are more near 100 test cases, covering from models, to forms
 ## Frontend
 
 I took a personal challenge in tryin to do the whole project with Bootstrap 5, without using CSS stylesheet (that is in fact just made up of 3 row of code).
-
-## Example screenshots (video)
-
-![screenshots](gif.gif)
 
 ## Features
 
@@ -84,12 +80,3 @@ I created also some additional walktrought that should help you configuring your
 
 - [The django walkthrough](django_walktrought.md).<br>
 - [A list of useful commands](CLI_commands.md).<br>
-
-## Contribute
-Every feedback and contributions are welcome.
-Please just:
-1. Open an issue and discuss the changes you'd like to make or  the bug\issue you'd like to report.<br>
-2. Once ready to submit a pull request, provide proof of the testing you've done.<br>
-
-### Contributors
-- [panjacek](https://github.com/panjacek) 
